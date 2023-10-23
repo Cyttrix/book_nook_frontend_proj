@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import useAuth from "../../hooks/useAuth";
+import { Link } from "react-router-dom";
 
 import axios from "axios";
 
@@ -37,6 +38,12 @@ const HomePage = () => {
             {car.year} {car.model} {car.make}
           </p>
         ))}
+      <div>
+        <Link to="/search">Click to search</Link>
+      </div>
+      <div>
+        <Link to="/favorites">Click to see favorites</Link>
+      </div>
     </div>
   );
 };
