@@ -41,9 +41,6 @@ const HomePage = () => {
       <div>
         <Link to="/search">Click to search</Link>
       </div>
-      <div>
-        <Link to="/favorites">Click to see favorites</Link>
-      </div>
     </div>
   );
 };

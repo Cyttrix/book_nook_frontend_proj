@@ -8,6 +8,7 @@ import axios from "axios";
 const SearchPage = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [searchResults, setSearchResults] = useState([]);
+   
 
     const fetchBooks = async () => {
         try {
